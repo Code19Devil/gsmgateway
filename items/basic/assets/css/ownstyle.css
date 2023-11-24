@@ -1,0 +1,219 @@
+.dropdown-item:hover {
+  background-color: #05ace8;
+  border-bottom: 1px solid white;
+}
+
+input[type='text'] {
+  border: 1px solid #0384fc;
+}
+
+input[type='submit'] {
+  border: 1px solid #0384fc;
+  background: #0384fc;
+  color: white;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+  background: aliceblue;
+  color: black;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar {
+  /* border: 5px solid red;*/
+  text-align: center;
+}
+
+.menu-bar ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.menu-bar ul li {
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*.active, .menu-bar ul li:hover{
+    background-color: red;
+}*/
+.sub-menu-1 {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: #095ae6;
+  /*  margin-top: -15px;
+      */
+  margin-left: 5em;
+  width: 100%;
+  padding: 2%;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  /* border-bottom: 2px double white;*/
+  background: transparent;
+  text-align: center;
+  border-radius: 0;
+  text-align: left;
+  width: 10em;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: white;
+}
+
+.sub-menu-2 {
+  display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  background: #095ae6;
+  margin-top: -2em;
+  margin-left: 140px;
+  color: white;
+}
+
+.own_text {
+  /*border: 4px solid red;*/
+  box-shadow: 1px 1px 1px 1px #1064eb;
+  text-align: justify;
+  padding: 1em;
+}
+
+.product_imgs {
+  border-right: 1px solid white;
+}
+
+.own_button .main-btn {
+  margin: auto;
+  display: block;
+  margin-top: -1.5em;
+}
+
+.products_name {
+  padding: auto;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.sub-menu-3 {
+  display: none;
+}
+
+.sub-menu-4 {
+  display: none;
+}
+
+.hover-me1:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  background: #095ae6;
+  margin-top: -2em;
+  margin-left: 140px;
+  color: white;
+}
+
+.menu-bar ul li .hover-me2:hover .sub-menu-4 {
+  display: block;
+  position: absolute;
+  background-color: #095ae6;
+  margin-top: -10em;
+  margin-left: 150px;
+}
+
+.industry_content {
+  text-align: justify;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+
+.hr_decorator {
+  background: #1544b0;
+}
+
+.Ind_icon_img {
+  width: 3em;
+  margin: auto;
+  display: block;
+}
+
+.ind_name {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.industries_details {
+  margin: 0.5em;
+  padding: 0.3em;
+  display: block;
+}
+
+.industries_details:hover {
+  background: #0384fc;
+  color: white;
+}
+
+.industries_details h6:hover {
+  color: white;
+}
+
+.main_navbar {
+  margin: 0em;
+  padding: 1px;
+  width: 100%;
+}
+
+.main_navbar li {
+  margin: 0em;
+  padding: 1px;
+}
+
+.nav-item a {
+  color: white !important;
+}
+
+.own_nav_ul {
+  margin-left: 10%;
+}
+
+.own_nav_ul li {
+  /*border-bottom: 1px solid white;*/
+}
+
+.dropdown_own_style li:hover {
+  background-color: #095ae6 !important;
+}
+
+.dropdown_own_style li a:hover {
+  background-color: #095ae6 !important;
+}
+
+/* For Pdf Manual */
+.pdf-doc table tr td {
+  /*border:2px solid red;*/
+  /*padding:0.1em;*/
+  margin: 0.1em;
+}
